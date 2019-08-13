@@ -14,7 +14,8 @@ end
 
 def age_appropriate_birthday(youn_kids)
   youn_kids.each do |key, val | 
-    puts "Happy Birthday #{key}! You are now #{val} years old!" if val < 12 
-    puts "You are too old for this." if val >= 12
+        puts "Happy Birthday #{key}! You are now #{val} years old!" if val < 12 
+        puts "You are too old for this." if val >= 12
+  end
 end
 
