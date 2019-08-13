@@ -13,7 +13,7 @@ def happy_birthday(birthday_kids)
 end 
 
 def age_appropriate_birthday(youn_kids)
-  youn_kids.each do {|key, val | puts "Happy Birthday #{key}! You are now #{val} years old!"} if val < 12
-  end
+  youn_kids.each {|key, val | puts "Happy Birthday #{key}! You are now #{val} years old!"} if val < 12
+  
 end
 
